@@ -6,16 +6,13 @@
     0% {
         opacity: 1;
     }
-
     75% {
         opacity: 1;
     }
-
     99% {
         opacity: 0;
         top: 0;
     }
-
     100% {
         opacity: 0;
         top: -51px;
@@ -26,16 +23,13 @@
     0% {
         opacity: 1;
     }
-
     75% {
         opacity: 1;
     }
-
     99% {
         opacity: 0;
         top: 0;
     }
-
     100% {
         opacity: 0;
         top: -51px;
@@ -46,16 +40,13 @@
     0% {
         opacity: 1;
     }
-
     75% {
         opacity: 1;
     }
-
     99% {
         opacity: 0;
         top: 0;
     }
-
     100% {
         opacity: 0;
         top: -51px;
@@ -66,45 +57,35 @@
     0% {
         margin: 0 0 0 0px;
     }
-
     10% {
         margin: 0 0 0 -15px;
     }
-
     20% {
         margin: 0 0 0 0px;
     }
-
     30% {
         margin: 0 0 0 -15px;
     }
-
     40% {
         margin: 0 0 0 0px;
     }
-
     50% {
         margin: 0 0 0 -15px;
     }
-
     60% {
         margin: 0 0 0 0px;
     }
-
     70% {
         margin: 0 0 0 -15px;
     }
-
     80% {
         margin: 0 0 0 0px;
     }
-
     90% {
         margin: 0 0 0 -15px;
         visibility: visible;
         opacity: 1;
     }
-
     100% {
         margin: 0 0 0 0px;
         visibility: hidden;
@@ -116,7 +97,6 @@
     80% {
         opacity: 1;
     }
-
     99.99% {
         opacity: 0;
         height: auto;
@@ -124,8 +104,7 @@
         margin-bottom: 5px;
         padding: 5px;
     }
-
-    100% {
+    100%{
         height: 0px;
         margin: 0px;
         padding: 0px;
@@ -154,8 +133,7 @@ sup {
     font-size: smaller;
 }
 
-html,
-body {
+html, body {
     font-family: 'Source Sans Pro', sans-serif;
     background: saddlebrown;
     overflow-y: hidden;
@@ -199,7 +177,7 @@ strong {
     display: block;
 }
 
-.hide-me {
+.hide-me{
     display: none !important;
 }
 
@@ -326,15 +304,13 @@ strong {
     left: 244px;
 }
 
-.xbox-old .back,
-.xbox-old .start {
+.xbox-old .back, .xbox-old .start {
     background: url(xbox-assets-old/arrow.png);
     width: 34px;
     height: 29px;
 }
 
-.xbox-old .back.pressed,
-.xbox-old .start.pressed {
+.xbox-old .back.pressed, .xbox-old .start.pressed {
     background-position: 0 -30px;
 }
 
@@ -612,16 +588,14 @@ strong {
     left: 306px;
 }
 
-.xbox .back,
-.xbox .start {
+.xbox .back, .xbox .start {
     background: url(xbox-assets/start-select.svg);
     width: 33px;
     height: 33px;
     opacity: 0;
 }
 
-.xbox .back.pressed,
-.xbox .start.pressed {
+.xbox .back.pressed, .xbox .start.pressed {
     opacity: 1;
 }
 
@@ -869,15 +843,13 @@ strong {
     left: 291px;
 }
 
-.ps .back,
-.ps .start {
+.ps .back, .ps .start {
     background: url(ps3-assets/menus.png);
     width: 34px;
     height: 19px;
 }
 
-.ps .back.pressed,
-.ps .start.pressed {
+.ps .back.pressed, .ps .start.pressed {
     background-position-y: -21px;
     margin-top: 2px;
 }
@@ -981,14 +953,12 @@ strong {
     position: absolute;
 }
 
-.ps .face.up,
-.ps .face.down {
+.ps .face.up, .ps .face.down {
     width: 38px;
     height: 52px;
 }
 
-.ps .face.left,
-.ps .face.right {
+.ps .face.left, .ps .face.right {
     width: 52px;
     height: 38px;
 }
@@ -1051,8 +1021,7 @@ strong {
     background-image: url(ps3-white-assets/player-n.png);
 }
 
-.ps.white .back,
-.ps.white .start {
+.ps.white .back, .ps.white .start {
     background-image: url(ps3-white-assets/menus.png);
 }
 
@@ -1072,7 +1041,7 @@ strong {
 
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url("https://i.imgur.com/KmNwb6H.png");
+    background: url(ps4-assets/base.svg);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
@@ -1193,16 +1162,14 @@ background-position: 0 -70px;
     left: 227px;
 }
 
-.ds4 .back,
-.ds4 .start {
+.ds4 .back, .ds4 .start {
     background: url(ps4-assets/start.svg);
     width: 28px;
     height: 46px;
     opacity: 0;
 }
 
-.ds4 .back.pressed,
-.ds4 .start.pressed {
+.ds4 .back.pressed, .ds4 .start.pressed {
     /* background-position-y: -21px; */
     /* margin-top: 2px; */
     opacity: 1;
@@ -1307,14 +1274,12 @@ background-position: 0 -70px;
     position: absolute;
 }
 
-.ds4 .face.up,
-.ds4 .face.down {
+.ds4 .face.up, .ds4 .face.down {
     width: 36px;
     height: 52px;
 }
 
-.ds4 .face.left,
-.ds4 .face.right {
+.ds4 .face.left, .ds4 .face.right {
     width: 52px;
     height: 36px;
 }
@@ -1375,8 +1340,7 @@ background-position: 0 -70px;
     background-image: url(ps4-white-assets/touchpad.svg);
 }
 
-.ds4.white .back,
-.ds4 .start {
+.ds4.white .back, .ds4 .start {
     background-image: url(ps4-white-assets/start.svg);
 }
 
@@ -1447,15 +1411,13 @@ background-position: 0 -70px;
     left: 288px;
 }
 
-.nes .back,
-.nes .start {
+.nes .back, .nes .start {
     background: url(nes-assets/menu.png);
     width: 73px;
     height: 20px;
 }
 
-.nes .back.pressed,
-.nes .start.pressed {
+.nes .back.pressed, .nes .start.pressed {
     background-position-y: -21px;
     margin-top: 4px;
 }
@@ -1497,8 +1459,7 @@ background-position: 0 -70px;
     left: 0px;
 }
 
-.nes .x,
-.nes .y {
+.nes .x, .nes .y {
     display: none;
 }
 
@@ -1517,13 +1478,11 @@ background-position: 0 -70px;
     height: 38px;
 }
 
-.nes .face.up,
-.nes .face.down {
+.nes .face.up, .nes .face.down {
     left: 50px;
 }
 
-.nes .face.left,
-.nes .face.right {
+.nes .face.left, .nes .face.right {
     top: 49px;
 }
 
@@ -1676,8 +1635,7 @@ background-position: 0 -70px;
     left: -126px;
 }
 
-.fpp .back.pressed,
-.fpp .start.pressed {
+.fpp .back.pressed, .fpp .start.pressed {
     background: url(fpp-assets/options.svg) no-repeat;
     width: 81px;
     height: 43px;
@@ -1801,14 +1759,12 @@ background-position: 0 -70px;
     opacity: 1;
 }
 
-.fpp .face.up,
-.fpp .face.down {
+.fpp .face.up, .fpp .face.down {
     width: 110px;
     height: 78px;
 }
 
-.fpp .face.left,
-.fpp .face.right {
+.fpp .face.left, .fpp .face.right {
     width: 78px;
     height: 111px;
 }
@@ -1953,8 +1909,7 @@ background-position: 0 -70px;
     left: 49px;
 }
 
-.fight-stick .back,
-.fight-stick .start {
+.fight-stick .back, .fight-stick .start {
     width: 70px;
     height: 70px;
     background: #333333;
@@ -1972,8 +1927,7 @@ background-position: 0 -70px;
     left: -1px;
 }
 
-.fight-stick .back.pressed,
-.fight-stick .start.pressed {
+.fight-stick .back.pressed, .fight-stick .start.pressed {
     transform: translateY(5px);
     -webkit-filter: invert(1);
 }
@@ -2162,8 +2116,7 @@ background-position: 0 -70px;
     left: 465px;
 }
 
-.gc .back,
-.gc .start {
+.gc .back, .gc .start {
     width: 43px;
     height: 43px;
     background: #E7E7E7;
@@ -2173,8 +2126,7 @@ background-position: 0 -70px;
     opacity: 0;
 }
 
-.gc .back.pressed,
-.gc .start.pressed {
+.gc .back.pressed, .gc .start.pressed {
     opacity: 1;
     filter: invert(1);
     -webkit-filter: invert(1);
@@ -2288,14 +2240,12 @@ background-position: 0 -70px;
     opacity: 0;
 }
 
-.gc .face.up,
-.gc .face.down {
+.gc .face.up, .gc .face.down {
     width: 44px;
     height: 65px;
 }
 
-.gc .face.left,
-.gc .face.right {
+.gc .face.left, .gc .face.right {
     width: 65px;
     height: 44px;
 }
@@ -2337,7 +2287,7 @@ background-position: 0 -70px;
     width: 810px;
 }
 
-.n64 .bumpers {
+.n64 .bumpers{
     position: absolute;
     height: 100px;
     width: 664px;
@@ -2345,7 +2295,7 @@ background-position: 0 -70px;
     left: 73px
 }
 
-.n64 .bumper {
+.n64 .bumper{
     background: url(n64-assets/buttons.svg);
     height: 68px;
     width: 174px;
@@ -2353,17 +2303,17 @@ background-position: 0 -70px;
     position: absolute;
 }
 
-.n64 .bumper.right {
+.n64 .bumper.right{
     right: 0;
     transform: rotateY(180deg);
 }
 
-.n64 .triggers {
+.n64 .triggers{
     position: absolute;
     left: 379px;
 }
 
-.n64 .trigger.left {
+.n64 .trigger.left{
     width: 52px;
     height: 88px;
     background: url(n64-assets/buttons.svg);
@@ -2371,7 +2321,7 @@ background-position: 0 -70px;
     background-position-y: -72px;
 }
 
-.n64 .dpad {
+.n64 .dpad{
     width: 150px;
     height: 150px;
     /*     background: #FF00008F; */
@@ -2380,7 +2330,7 @@ background-position: 0 -70px;
     left: 106px;
 }
 
-.n64 .dpad .face {
+.n64 .dpad .face{
     background: url(n64-assets/buttons.svg);
     height: 64px;
     width: 44px;
@@ -2389,30 +2339,30 @@ background-position: 0 -70px;
     position: absolute
 }
 
-.n64 .dpad .face.up {
+.n64 .dpad .face.up{
     left: 32px
 }
 
 
-.n64 .dpad .face.down {
+.n64 .dpad .face.down{
     transform: rotate(180deg);
     left: 32px;
     top: 65px
 }
 
-.n64 .dpad .face.left {
+.n64 .dpad .face.left{
     transform: rotate(-90deg);
     top: 33px
 }
 
-.n64 .dpad .face.right {
+.n64 .dpad .face.right{
     transform: rotate(90deg);
     top: 33px;
     left: 64px;
 }
 
 /* We're using the node used for a controller's system button here */
-.n64 .meta {
+.n64 .meta{
     background: url(n64-assets/buttons.svg);
     width: 55px;
     height: 55px;
@@ -2422,13 +2372,13 @@ background-position: 0 -70px;
     top: 344px
 }
 
-.n64 .abxy {
+.n64 .abxy{
     position: absolute;
     top: 245px;
     left: 609px
 }
 
-.n64 .abxy .button {
+.n64 .abxy .button{
     background: url(n64-assets/buttons.svg);
     width: 47px;
     height: 47px;
@@ -2437,36 +2387,35 @@ background-position: 0 -70px;
     position: absolute;
 }
 
-.n64 .abxy .button.a {
+.n64 .abxy .button.a{
     left: 45px
 }
 
-.n64 .abxy .button.b {
+.n64 .abxy .button.b{
     left: 44px;
     top: 92px;
     transform: rotate(180deg);
 }
 
-.n64 .abxy .button.x {
+.n64 .abxy .button.x{
     top: 45px;
     left: -2px;
     transform: rotate(-90deg)
 }
 
-.n64 .abxy .button.y {
+.n64 .abxy .button.y{
     left: 91px;
     top: 46px;
     transform: rotate(90deg);
 }
 
-.n64 .arrows {
+.n64 .arrows{
     position: absolute;
     top: 335px;
     left: 529px
 }
 
-.n64 .back,
-.n64 .start {
+.n64 .back, .n64 .start{
     background: url(n64-assets/buttons.svg);
     width: 61px;
     height: 61px;
@@ -2475,19 +2424,19 @@ background-position: 0 -70px;
     position: relative;
 }
 
-.n64 .start {
+.n64 .start{
     background-position-y: -405px;
     top: -5px;
     left: 56px
 }
 
-.n64 .sticks {
+.n64 .sticks{
     position: absolute;
     top: 493px;
     left: 369px;
 }
 
-.n64 .stick.left {
+.n64 .stick.left{
     background: url(n64-assets/buttons.svg);
     width: 73px;
     height: 73px;
@@ -2500,14 +2449,13 @@ background-position: 0 -70px;
 .n64 .meta,
 .n64 .bumper,
 .n64 .trigger,
-.n64 .arrows * {
+.n64 .arrows *{
     opacity: 0
 }
 
-.n64 .pressed {
+.n64 .pressed{
     opacity: 1
 }
-
 /*END N64 Styling*/
 
 /*Navbar Elements & their inner contents*/
@@ -2531,8 +2479,7 @@ background-position: 0 -70px;
     top: auto;
 }
 
-.nocon.visible,
-.pselect.visible {
+.nocon.visible, .pselect.visible {
     visibility: visible;
     opacity: 1;
 }
@@ -2576,8 +2523,7 @@ background-position: 0 -70px;
     display: flex;
 }
 
-.pselect,
-.nocon {
+.pselect, .nocon {
     visibility: hidden;
     opacity: 0;
     transition: .5s ease;
@@ -2616,8 +2562,7 @@ background-position: 0 -70px;
     float: left;
 }
 
-.box a,
-.box label {
+.box a, .box label {
     text-decoration: none;
     display: block;
     height: 50px;
@@ -2659,13 +2604,11 @@ background-position: 0 -70px;
     background: white;
 }
 
-.console.xbox,
-.console.xbox-old {
+.console.xbox, .console.xbox-old {
     background: url('icons/xbx.png') no-repeat center;
 }
 
-.console.ps,
-.console.ds4 {
+.console.ps, .console.ds4 {
     background: url('icons/psn.png') no-repeat center;
 }
 
@@ -2847,7 +2790,9 @@ span.code {
     position: relative;
     margin: 0 auto;
 }*/
-.ac {}
+.ac {
+
+}
 
 .title {
     width: 100%;
@@ -3100,9 +3045,7 @@ a:active .menu-button {
 
 }
 
-.yt-contain iframe,
-.yt-contain object,
-.yt-contain embed {
+.yt-contain iframe, .yt-contain object, .yt-contain embed {
     position: absolute;
     top: 0;
     left: 0;
@@ -3156,7 +3099,7 @@ a:active .menu-button {
     overflow-y: auto;
 }
 
-.menu .yt-contain+ul {
+.menu .yt-contain + ul {
     height: calc(100% - 275px);
 }
 
@@ -3249,8 +3192,7 @@ a:active .menu-button {
     cursor: default;
 }
 
-.modal-container:target .modal-bg,
-.slideout-menu:target .modal-bg {
+.modal-container:target .modal-bg, .slideout-menu:target .modal-bg {
     background: rgba(0, 0, 0, 0.61);
 }
 
@@ -3307,8 +3249,7 @@ a:active .menu-button {
     text-shadow: rgba(0, 0, 0, 0.45) 0px 1px 3px;
 }
 
-.modal a.close:active,
-.modal a.close:hover {
+.modal a.close:active, .modal a.close:hover {
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
@@ -3339,8 +3280,7 @@ a:active .menu-button {
     display: table-cell;
 }
 
-.modal .minimenu li:hover,
-.modal .minimenu .selected {
+.modal .minimenu li:hover, .modal .minimenu .selected {
     background: rgba(0, 0, 0, 0.25);
 }
 
@@ -3351,7 +3291,7 @@ a:active .menu-button {
     display: inline-block;
 }
 
-.modal .minimenu+header {
+.modal .minimenu + header {
     background: deepskyblue;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -3456,7 +3396,7 @@ a:active .menu-button {
     right: 0;
 }
 
-.form-group .input-unit+[id*=-input] {
+.form-group .input-unit + [id*=-input] {
     width: 474px;
     padding-right: 60px;
 }
@@ -3478,8 +3418,7 @@ a:active .menu-button {
     text-shadow: rgba(0, 0, 0, 0.44) 0 0 .1px;
 }
 
-#docs .definition,
-#docs .definition ul {
+#docs .definition, #docs .definition ul {
     margin-bottom: 15px;
 }
 
@@ -3542,8 +3481,7 @@ a:active .menu-button {
 }
 
 /*Tooltip Stuff*/
-#generated-url:before,
-#generated-url:after {
+#generated-url:before, #generated-url:after {
     display: block;
     position: absolute;
     font-size: 16px;
@@ -3575,8 +3513,7 @@ a:active .menu-button {
     margin-top: 72px;
 }
 
-#generated-url:hover:before,
-#generated-url:hover:after {
+#generated-url:hover:before, #generated-url:hover:after {
     transform: translatex(-50%) translateY(-20px);
     opacity: 1;
 }
@@ -3625,7 +3562,7 @@ a:active .menu-button {
     font-size: inherit;
 }
 
-#mapping-config #mappings .form-group>select {
+#mapping-config #mappings .form-group > select {
     display: none;
 }
 
@@ -3636,7 +3573,7 @@ a:active .menu-button {
     position: relative;
 }
 
-#mapping-config #mappings .form-group>button+button {
+#mapping-config #mappings .form-group > button + button {
     display: none;
     margin: 0 5px 0px 0px;
 }
@@ -3704,8 +3641,7 @@ a:active .menu-button {
     color: red;
 }
 
-#mapping-config input[type=radio],
-#mapping-config .disable-item {
+#mapping-config input[type=radio], #mapping-config .disable-item {
     margin-right: 70px;
     display: inline-block;
     width: 0px;
@@ -3723,25 +3659,21 @@ a:active .menu-button {
     margin-right: 36px;
 }
 
-#mapping-config select {
+#mapping-config select{
     margin-left: 6px;
 }
 
-#mapping-config input[type=radio]:checked,
-#mapping-config .disable-item:checked {
+#mapping-config input[type=radio]:checked, #mapping-config .disable-item:checked {
     opacity: 1;
 }
 
-#mapping-config #mappings .disable-item:checked~button {
+#mapping-config #mappings .disable-item:checked ~ button {
     opacity: .5;
     pointer-events: none;
 
 }
 
-#mapping-config input[value="buttons"]:after,
-#mapping-config input[value="axes"]:after,
-#mapping-config input[value="dpad"]:after,
-#mapping-config .disable-item:after {
+#mapping-config input[value="buttons"]:after, #mapping-config input[value="axes"]:after, #mapping-config input[value="dpad"]:after, #mapping-config .disable-item:after {
     display: inline-block;
     background: orangered;
     color: white;
@@ -3795,8 +3727,7 @@ a:active .menu-button {
     order: -1;
 }
 
-#mapping-config #mappings input[value="buttons"]:checked~select[name="buttons"],
-#mapping-config #mappings input[value="axes"]:checked~select[name="axes"] {
+#mapping-config #mappings input[value="buttons"]:checked ~ select[name="buttons"], #mapping-config #mappings input[value="axes"]:checked ~ select[name="axes"] {
     display: inline-block;
 }
 
@@ -3813,18 +3744,17 @@ a:active .menu-button {
     font-size: inherit;
 }
 
-#mapping-config #mappings .fix-axes,
-#mapping-config #mappings .fix-dpad li {
+#mapping-config #mappings .fix-axes, #mapping-config #mappings .fix-dpad li{
     height: 37px;
 }
 
-#mapping-config #mappings .fix-dpad li {
+#mapping-config #mappings .fix-dpad li{
     display: flex;
     margin-bottom: 5px;
     justify-content: flex-end;
 }
 
-#mapping-config #mappings .fix-dpad {
+#mapping-config #mappings .fix-dpad{
     flex-direction: column;
 }
 
@@ -3832,27 +3762,24 @@ a:active .menu-button {
     max-width: 655px;
 }
 
-#mapping-config #mappings .axes-config:checked~.fix-axes,
-#mapping-config #mappings input[type=radio][value=dpad]:checked~.fix-dpad {
+#mapping-config #mappings .axes-config:checked ~ .fix-axes, #mapping-config #mappings input[type=radio][value=dpad]:checked ~ .fix-dpad{
     display: flex;
 }
 
-#mapping-config #mappings .axes-config:checked~button:nth-of-type(2) {
+#mapping-config #mappings .axes-config:checked ~ button:nth-of-type(2) {
     display: none !important;
 }
 
-#mapping-config #mappings input[value="dpad"]:checked~.axes-config,
-#mapping-config #mappings input[value="dpad"]:checked~.fix-axes {
+#mapping-config #mappings input[value="dpad"]:checked ~ .axes-config, #mapping-config #mappings input[value="dpad"]:checked ~ .fix-axes{
     display: none;
 }
 
-#mapping-config #mappings input[value="axes"]:checked~.axes-config:not(:checked)~[data-tooltip]:hover:after,
-#mapping-config #mappings .fix-axes [data-tooltip]:hover:after {
+#mapping-config #mappings input[value="axes"]:checked ~ .axes-config:not(:checked) ~ [data-tooltip]:hover:after, #mapping-config #mappings .fix-axes [data-tooltip]:hover:after {
     opacity: 1;
     top: -28px;
 }
 
-#mapping-config #mappings input[value="axes"]:checked~button:nth-of-type(2) {
+#mapping-config #mappings input[value="axes"]:checked ~ button:nth-of-type(2) {
     display: block;
 }
 
@@ -3869,10 +3796,10 @@ a:active .menu-button {
 
 #mapping-config #mappings .map-message.error {
     display: block;
-    background: hsla(0, 86%, 50%, 1);
+    background: hsla(0,86%,50%,1);
 }
 
-#mapping-config #mappings .map-message.success {
+#mapping-config #mappings .map-message.success{
     display: block;
     animation: 4s msg-animation forwards;
 }
@@ -3889,7 +3816,7 @@ a:active .menu-button {
     margin-left: 10px;
 }
 
-#mappings:empty+div {
+#mappings:empty + div {
     display: none;
 }
 
@@ -3905,7 +3832,9 @@ a:active .menu-button {
     margin-right: 10px;
 }
 
-#showcase .description {}
+#showcase .description {
+
+}
 
 #adoptaskin p {
     margin-bottom: 8px;
@@ -3932,9 +3861,7 @@ a:active .menu-button {
     border-radius: 4px;
 }
 
-#contact-form input,
-#contact-form textarea,
-#contact-form select {
+#contact-form input, #contact-form textarea, #contact-form select {
     width: 100%;
     box-sizing: border-box;
     font-size: 30px;
